@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pencil Micro Arts | Harison Arts</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER & NAV -->
+  <header class="site-header">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="images/hero-logo.png" alt="Pencil Logo">
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="#about" class="active">About</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#record">Record</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content container">
+      <h1>Pencil Micro Arts Portfolio</h1>
+      <p class="tagline">“Look closer. What’s small to the eye might be unforgettable to the soul.”</p>
+    </div>
+  </section>
+
+  <main>
+
+    <!-- ABOUT -->
+    <section id="about" class="about container">
+      <figure class="about-img">
+        <img src="images/about.jpg" alt="Harison Davidson">
+      </figure>
+      <div class="about-text">
+        <h2>Who Am I?</h2>
+        <h3>Harison Davidson<br><small>Pencil Micro Artist</small></h3>
+        <p>I am a pencil micro-artist with 6 years of experience, specializing in intricate name carvings and sculptures using Staedtler pencils. My work captures fine details and brings everyday subjects to life in a unique way.</p>
+        <p><em>Pencil micro carving is my passion. I see beauty in little things, and I carve what I see.</em></p>
+      </div>
+    </section>
+
+    <!-- WORKS GALLERY -->
+    <section id="works" class="gallery container">
+      <h2>Featured Works</h2>
+      <div class="grid">
+        <figure>
+          <img src="images/holy_cross.jpg" alt="Holy Cross (2021)">
+          <figcaption>
+            <strong>Holy Cross (2021)</strong>
+            <p>A spiritual symbol of faith and balance, sculpted into graphite with flawless symmetry.</p>
+            <span class="size">4 mm</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/rainy_thunder.jpg" alt="Rainy & Thunder (2023)">
+          <figcaption>
+            <strong>Rainy &amp; Thunder (2023)</strong>
+            <p>An expressive miniature showing a stormy cloud and lightning, symbolising chaos and clarity.</p>
+            <span class="size">5 mm</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/study_lamp.jpg" alt="Study Lamp (2022)">
+          <figcaption>
+            <strong>Study Lamp (2022)</strong>
+            <p>A tribute to focus and learning, the classic study lamp crafted on a pencil tip.</p>
+            <span class="size">6 mm</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/question_mark.jpg" alt="Question Mark (2021)">
+          <figcaption>
+            <strong>Question Mark (2021)</strong>
+            <p>Sculpted curiosity – this piece represents human wonder and unanswered thoughts.</p>
+            <span class="size">5 mm</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/shapes.jpg" alt="Shapes (2023)">
+          <figcaption>
+            <strong>Shapes (2023)</strong>
+            <p>PlayStation symbols carved in perfect form; a fusion of geometry and nostalgia.</p>
+            <span class="size">7 mm</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/half_face.jpg" alt="Half Face – Contemporary (2021)">
+          <figcaption>
+            <strong>Half Face – Contemporary (2021)</strong>
+            <p>A split portrait emerging from graphite, representing duality in identity.</p>
+            <span class="size">6 mm</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/guitar.jpg" alt="Guitar (2022)">
+          <figcaption>
+            <strong>Guitar (2022)</strong>
+            <p>A delicate mini guitar formed with detail and depth – music meets micro art.</p>
+            <span class="size">6 mm</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/camera.jpg" alt="Camera (2021)">
+          <figcaption>
+            <strong>Camera (2021)</strong>
+            <p>An old-style camera lens miniature, spotlighting artistic vision and perspective.</p>
+            <span class="size">5 mm</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/clapbord.jpg" alt="Clapbord (2023)">
+          <figcaption>
+            <strong>Clapbord (2023)</strong>
+            <p>A miniature clapboard carved into graphite, symbolizing the start of every cinematic journey.</p>
+            <span class="size">4 mm</span>
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="images/human_being.jpg" alt="Human Being (2021)">
+          <figcaption>
+            <strong>Human Being (2021)</strong>
+            <p>A delicate human figure sculpted in pencil lead capturing emotion, fragility, and life in micro form.</p>
+            <span class="size">5 mm</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- RECORD WORK -->
+    <section id="record" class="record container">
+      <h2>My Record Work</h2>
+      <div class="record-flex">
+        <figure class="record-img">
+          <img src="images/india_gate.jpg" alt="India Gate miniature">
+        </figure>
+        <div class="record-text">
+          <h3>India Gate – Carved in 20.53 minutes</h3>
+          <p>A national monument reborn on graphite – the India Gate, sculpted in just 20.53 minutes. This record-breaking micro artwork captures the spirit of a nation on a canvas no wider than a whisper, a blink, a breath, a legacy.</p>
+          <figure class="certificate">
+            <img src="images/india_certificate.jpg" alt="India Book of Records Certificate">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact container">
+      <h2>Get In Touch</h2>
+      <div class="contact-grid">
+        <div class="contact-thumbs">
+          <img src="images/guitar.jpg" alt="">
+          <img src="images/question_mark.jpg" alt="">
+          <img src="images/study_lamp.jpg" alt="">
+          <img src="images/rainy_thunder.jpg" alt="">
+        </div>
+        <div class="contact-info">
+          <p><strong>Address</strong><br>
+             127 The White Houses, Bourtport Street<br>
+             Barnstaple, EX31 1TD, UK</p>
+          <p><strong>Phone</strong><br>
+             +44 7917 163 693</p>
+          <p><strong>Instagram</strong><br>
+             <a href="https://instagram.com/harison.arts" target="_blank">@harison.arts</a></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    &copy; 2025 Harison Arts. All rights reserved.
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
