@@ -1,4 +1,91 @@
 package.json
+ package.json
 src/ folder (including your Portfolio.jsx and artworks data)
+src/ folder (including your 
 public/ folder
+// vite.config.jssrc/ folder (including your import { defineConfig } from 'vite';
 tailwind.config.js, etc.
+import react from '@vitejs/plugin-react';
+src/ folder (including your 
+// vite.config.jssrc/ folder (including your import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [react()],
+});
+
+
+// index.html
+/*
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harison Arts</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+*/
+
+
+// src/main.jsx
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import Portfolio from './Portfolio.jsx';
+import './index.css';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <Portfolio />
+  </React.StrictMode>
+);
+
+
+// src/Portfolio.jsx
+import React from "react";
+
+export default function Portfolio() {
+  return (
+    <div className="min-h-screen bg-black text-white p-6 font-sans">
+      <h1 className="text-4xl font-bold mb-2">Harison Davidson</h1>
+      <h2 className="text-2xl italic mb-8">Pencil Micro Artist</h2>
+
+      <blockquote className="mb-6 text-lg text-gray-300 border-l-4 border-gray-600 pl-4">
+        "Everyone uses a pencil as a tool. I turn it into a rare piece of art."
+      </blockquote>
+
+      <p className="mb-6 max-w-2xl">
+        Harison Davidson is a self-taught pencil micro-sculptor with over 6 years of experience transforming the humble pencil into astonishing works of miniature art. In 2024, he earned a place in the India Book of Records for carving the India Gate in just 20.53 seconds. His pieces - ranging from hearts and thunders to faces and symbols - blend discipline, storytelling, and innovation.
+      </p>
+
+      <p className="mb-10 italic text-gray-400">
+        "Look closer. What's small to the eye might be unforgettable to the soul."
+      </p>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {artworks.map(({ title, description, size }) => (
+          <div key={title} className="bg-gray-900 p-4 rounded-2xl shadow-md">
+            <h3 className="text-xl font-semibold mb-2">{title}</h3>
+            <p className="text-gray-300 mb-1">{description}</p>
+            <p className="text-sm text-gray-500">Size: {size}</p>
+          </div>
+        ))}
+      </div>
+
+      <div className="mt-16 text-center text-sm text-gray-500">
+        © {new Date().getFullYear()} Harison Davidson | Instagram: <a href="https://instagram.com/harisonarts" className="underline hover:text-white">@harisonarts</a>
+      </div>
+    </div>
+  );
+}
+
+const artworks = [
+  { title: "Holy Cross (2021)", description: "A spiritual symbol of faith and balance, sculpted into graphite with flawless symmetry.", size: "4 mm" },
+  { title: "Rainy & Thunder (2023)", description: "An expressive miniature showing a stormy cloud and lightning, symbolising chaos and clarity.", size: "5 mm" },
+  { title: "Study Lamp (2022)", description: "A tribute to focus and learning, the classic study lamp crafted on a pencil tip.", size: "6 mm" },
+  { title: "Question Mark (2021)", description: "Sculpted curiosity - this piece represents human wonder and unanswered thoughts.", size: "5 mm" },
+  { title: "Shapes (2023)
